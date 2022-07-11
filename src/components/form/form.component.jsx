@@ -75,7 +75,7 @@ const Form = () => {
         setFormFields({ ...formFields, [name]: value, mogaId: `MOGA${yearOfCompletion}-${nanoid(4)}` });
     };
 
-    // const mogaId = `MOGA${yearOfCompletion}-${nanoid()}`
+    // const mogaId = `MOGA${yearOfCompletigiton}-${nanoid()}`
     console.log(formFields)
 
     const resetFormFields = () => {
