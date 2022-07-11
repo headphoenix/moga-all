@@ -72,7 +72,7 @@ const Form = () => {
     const handleChange = (event) => {
         const { name, value } = event.target;
 
-        setFormFields({ ...formFields, [name]: value, mogaId: `MOGA${yearOfCompletion}-${nanoid(8)}` });
+        setFormFields({ ...formFields, [name]: value, mogaId: `MOGA${yearOfCompletion}-${nanoid(4)}` });
     };
 
     // const mogaId = `MOGA${yearOfCompletion}-${nanoid()}`
