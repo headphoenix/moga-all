@@ -39,7 +39,7 @@ const defaultFormFields = {
 const Form = () => {
 
     const publicKey = "pk_live_881b975d6fbcfb5f044347896b02af17de9109c5"
-    const amount = 1
+    const amount = 15000
     const currency = "GHS"
 
     const [users, setUsers] = useState([]);
