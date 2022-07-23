@@ -18,7 +18,6 @@ const defaultFormFields = {
     yearOfCompletion: "",
     house: "",
     title: "",
-    maritalStatus: "",
     dateOfBirth: "",
     telNumber: "",
     whatsappNumber: "",
@@ -39,7 +38,7 @@ const defaultFormFields = {
 const Form = () => {
 
     const publicKey = "pk_live_881b975d6fbcfb5f044347896b02af17de9109c5"
-    const amount = 15000
+    const amount = 1
     const currency = "GHS"
 
     const [users, setUsers] = useState([]);
@@ -50,7 +49,6 @@ const Form = () => {
         yearOfCompletion,
         house,
         title,
-        maritalStatus,
         dateOfBirth,
         telNumber,
         whatsappNumber,
@@ -103,7 +101,6 @@ const Form = () => {
                 yearOfCompletion: yearOfCompletion,
                 house: house,
                 title: title,
-                maritalStatus: maritalStatus,
                 dateOfBirth: dateOfBirth,
                 telNumber: telNumber,
                 whatsappNumber: whatsappNumber,
@@ -195,18 +192,6 @@ const Form = () => {
                                     <option value="Dr">Dr</option>
                                     <option value="Professor">Professor</option>
                                     <option value="Honourable">Honourable</option>
-                                </select>
-                            </div>
-                            <div class="form-group right">
-                                <label className="label-title">
-                                    Marital Status:
-                                </label>
-                                <select className='form-input' onChange={handleChange} name="maritalStatus" value={maritalStatus} required>
-                                    <option value=""></option>
-                                    <option value="Single">Single</option>
-                                    <option value="Married">Married</option>
-                                    <option value="Separated">Separated</option>
-                                    <option value="Divorced">Divorced</option>
                                 </select>
                             </div>
                         </div>
@@ -316,7 +301,7 @@ const Form = () => {
                     </div>
                 </div>
                 <p>
-                    MOGA is committed to protecting the privacy of confidential information shared as much as possible. The information provided is used solely to keep record of our members and to help the MOGA operate efficiently to serve you better. We will only share information you provide with third parties in a manner permitted or required by law / Companies Act 2019(Act 992). Your personal data is kept secure. Only authorized members will have access to this information. If you have any questions or comments about this Privacy Statement, please reach us through MOGA NEC.
+                    MOGA is committed to protecting the privacy of confidential information shared as much as possible. The information provided is used solely to keep record of our members and to help the MOGA operate efficiently to serve you better. We will only share information you provide with third parties in a manner permitted or required by law / DATA PROTECTION ACT,2012(ACT 843). Your pegrsonal data is kept secure. Only authorized members will have access to this information. If you have any questions or comments about this Privacy Statement, please reach us through MOGA NEC.
                 </p> 
 
                 <p>The Subscription fee for registring as a Moga Member is 150 cedis</p>
