@@ -38,7 +38,7 @@ const defaultFormFields = {
 const Form = () => {
 
     const publicKey = "pk_live_881b975d6fbcfb5f044347896b02af17de9109c5"
-    const amount = 12000
+    const amount = 15000
     const currency = "GHS"
 
     const [users, setUsers] = useState([]);
@@ -304,7 +304,7 @@ const Form = () => {
                     MOGA is committed to protecting the privacy of confidential information shared as much as possible. The information provided is used solely to keep record of our members and to help the MOGA operate efficiently to serve you better. We will only share information you provide with third parties in a manner permitted or required by law / DATA PROTECTION ACT,2012(ACT 843). Your personal data is kept secure. Only authorized members will have access to this information. If you have any questions or comments about this Privacy Statement, please reach us through MOGA NEC.
                 </p> 
 
-                <p>The Subscription fee for registering as a Moga Member is GHS 120.00</p>
+                <p>The Subscription fee for registering as a Moga Member is GHS 150.00</p>
             </form>
             <div className="form-footer">
                 <PaystackButton className="btn" {...componentProps} />
