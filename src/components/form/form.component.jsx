@@ -140,7 +140,7 @@ const Form = () => {
         <div className='signup-form'>
             <form ref={form} >
                 <div className='form-header'>
-                    <h1>Register to the Mfantsiman Old Girls Association</h1>
+                    <h1>Mfantsiman Old Girls Association - 2023 Registration</h1>
                 </div>
                 <div className='form-body'>
                     <div className="horizontal-group">
