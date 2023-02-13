@@ -11,6 +11,7 @@
     "messagebird": "^3.8.1",
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
+    "react-datepicker": "^4.10.0",
     "react-dom": "^18.2.0",
     "react-paystack": "^3.0.5",
     "react-scripts": "4.0.2",
