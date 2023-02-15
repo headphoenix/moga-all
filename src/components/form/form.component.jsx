@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 import { useRef, useId } from 'react';
 import { customAlphabet } from 'nanoid';
 import './form.styles.css';
-import DatePicker from "react-datepicker";
+// import DatePicker from "react-datepicker";
 
 
 const defaultFormFields = {
@@ -16,7 +16,7 @@ const defaultFormFields = {
     yearOfCompletion: "",
     house: "",
     title: "",
-    dateOfBirth: new Date(),
+    dateOfBirth: "",
     telNumber: "",
     whatsappNumber: "",
     email: "",
@@ -157,7 +157,7 @@ const Form = () => {
                         <div className="horizontal-group">
                             <div className="form-group left">
                                 <label className="label-title">
-                                    Year of Completion:
+                                    Year Group:
                                 </label>
                                 <input className='form-input' type="year" required name="yearOfCompletion" value={yearOfCompletion} onChange={handleChange} />
                             </div>
@@ -196,7 +196,7 @@ const Form = () => {
                         <div className="horizontal-group">
                             <div className="form-group left">
                                 <label className="label-title">Date of Birth: </label>
-                                <DatePicker showIcon selected={dateOfBirth} className='form-input' required name="dateOfBirth" value={dateOfBirth} onChange={handleChange} />
+                                <input className='form-input' type="date" required name="dateOfBirth" value={dateOfBirth} onChange={handleChange} />
                             </div>
                             <div class="form-group right">
                                 <label className="label-title">Telephone Number: </label>
